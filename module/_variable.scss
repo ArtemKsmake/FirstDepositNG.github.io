@@ -1,0 +1,55 @@
+// Text color
+$colorTextBlack:#151515;
+$colorTextWhite:#FFFFFF;
+$colorTextGold:#F5BF41;
+//Font family
+$family1:Monserate;
+
+//Font weight
+ $weight1:700;
+ $weight2:800;
+ $weight3:400;
+ $weight4:600;
+
+
+ //Font size
+
+ $size1:117px;
+ $size2:35px;
+ $size3:40px;
+ $size4:81px;
+ $size5:20px;
+ $size6:20px;
+ $size7:39px;
+ $size8:32px;
+ $size9:48px;
+ $size10:163px;
+ $size11:123px;
+ $size12:79px;
+ $size13:16px;
+
+
+
+
+//size after block
+
+$widthCircle:70px;
+$heightCircle:70px;
+$lineHeightCircle:70px;
+
+//
+
+$paddingBnt:66px;
+
+ @mixin fontStyle($size,$color, $lineHeight){
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size:$size ;
+  color: $color;
+  line-height: $lineHeight;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+
